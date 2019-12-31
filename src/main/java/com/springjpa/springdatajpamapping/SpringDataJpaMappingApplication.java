@@ -11,7 +11,9 @@ public class SpringDataJpaMappingApplication extends SpringBootServletInitialize
 	public static void main(String[] args) {
 		SpringApplication.run(SpringDataJpaMappingApplication.class, args);
 		System.out.println("Start the SPRING JPA!!!.........");
-	}
+        System.out.println("After first PUSH YEAH!!!!!.........");
+
+    }
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
 		return builder.sources(SpringDataJpaMappingApplication.class);
