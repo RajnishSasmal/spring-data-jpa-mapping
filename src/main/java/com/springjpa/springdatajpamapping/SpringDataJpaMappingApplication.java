@@ -12,7 +12,7 @@ public class SpringDataJpaMappingApplication extends SpringBootServletInitialize
 		SpringApplication.run(SpringDataJpaMappingApplication.class, args);
 		System.out.println("Start the SPRING JPA!!!.........");
         System.out.println("After first PUSH YEAH!!!!!.........");
-		System.out.println("After first ne Branch!!!.........");
+		System.out.println("After first new Branch!!!.........");
 
     }
 	@Override
